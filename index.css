@@ -1,0 +1,82 @@
+body{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-image: url("background-image1.png");
+	background-size: cover;
+}
+div#two p:first-child{
+	font-size: 250%;
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#two p:last-child{
+	margin-top: -2%;
+	font-size: 130%;
+	
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: grey;
+}
+#two{
+	padding-left: 2%;
+}
+div#container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+div#container img{
+	
+	padding-top: 3%;
+	margin-left: 85%;
+	
+	height: 8%;
+	width: 15%;
+}
+table td{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	height: 35px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+table{
+	border-radius: 10px;
+	border-collapse: collapse;
+	background-color: white;
+	width: 78%;
+	
+}
+tr#head td:first-child{
+	color: aliceblue;
+	background-color: orangered;
+	padding-left:10px;
+	
+}
+tr#head td:nth-child(2){
+	color: aliceblue;
+	background-color: orangered;
+	padding-left: 60%;
+}
+tr.player td:first-child{
+	color: rgb(14, 114, 255);
+	width: 200px;
+	
+	padding-left:10px;
+}
+tr.extra td{
+	padding-left:10px;
+	
+}
+#wicket{
+	padding-left: 10%;	
+}
+table tr:last-child td:last-child{
+	
+	padding-left: 10%;
+}
+
+.footer{
+	
+	margin-top: 2%;
+}
